@@ -1,0 +1,73 @@
+* {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --primary: #317A86;
+    --secondary: #61727C;
+    --third: #3E6F6B;
+    --fourth: #5D8679;
+    --fifth: #3E7C59;
+}
+
+body{
+    background-color: var(--secondary);
+}
+
+nav {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+nav div a:hover{
+    background-color: var(--third);
+    padding: 1px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+nav div a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px 7px 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}
+
+.bg-third {
+    background-color: var(--third);
+}
+
+.bg-fourth {
+    background-color: var(--fourth);
+}
+
+.bg-fifth {
+    background-color: var(--fifth);
+}
+
+.container {
+    display: block;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1140px;
+}
